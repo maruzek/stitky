@@ -57,7 +57,7 @@ const AddCellControls: React.FC<AddCellControlsProps> = ({ onAddCell }) => {
                     </SelectContent>
                 </Select>
             </div>
-            <Button type="submit" variant="default">
+            <Button type="submit" variant="default" className='cursor-pointer'>
                 Přidat Buňku
             </Button>
         </form>
